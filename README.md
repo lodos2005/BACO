@@ -16,20 +16,22 @@
 
 ### Adımlar
 
-```bash
-# Depoyu klonlayın
+- Depoyu klonlayın
+
 `git clone https://github.com/lodos2005/BACO.git`
 
-# Proje dizinine gidin
+- Proje dizinine gidin
+
 `cd BACO`
 
-# Uygulamayı derleyin
+- Uygulamayı derleyin
+
 `go build -o BACO main.go generator.go profile.go`
 
+- Uygulamayı çalıştırın
 
-# Uygulamayı çalıştırın
 `./BACO`
 
-# YADA Uygulamayı kodundan çalıştırın
+- YADA Uygulamayı kodundan çalıştırın
+
 `go run *.go`
-```
